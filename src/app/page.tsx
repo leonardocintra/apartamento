@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <main>
@@ -8,14 +10,14 @@ export default function Home() {
               Lindo Apartamento á Venda
             </h1>
             <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">
-              "Aproveite a oportunidade de viver em um belo apartamento com 2
-              dormitórios, incluindo uma suíte, sala aconchegante, cozinha
+              &quot;Aproveite a oportunidade de viver em um belo apartamento com
+              2 dormitórios, incluindo uma suíte, sala aconchegante, cozinha
               equipada com cooktop, banheiro moderno, área de serviço funcional
               e duas vagas na garagem. Localizado na avenida, desfrute da
               comodidade de ter uma ciclovia à sua disposição e dois mercados em
               frente. Além disso, o bairro está em constante crescimento, e a
               duplicação da avenida pela prefeitura trará melhorias no acesso.
-              Não perca tempo, agende uma visita e garanta seu novo lar!"
+              Não perca tempo, agende uma visita e garanta seu novo lar!&quot;
             </p>
           </div>
           <div className="flex flex-wrap -m-4">
@@ -154,7 +156,8 @@ export default function Home() {
                   Contato
                 </h2>
                 <p className="leading-relaxed text-base">
-                  Voce pode entrar em contato com o proprietário Leonardo ou Juliana
+                  Voce pode entrar em contato com o proprietário Leonardo ou
+                  Juliana
                 </p>
               </div>
             </div>
@@ -166,21 +169,21 @@ export default function Home() {
           <div className="flex flex-wrap md:-m-2 -m-1">
             <div className="flex flex-wrap w-1/2">
               <div className="md:p-2 p-1 w-1/2">
-                <img
+                <Image
                   alt="gallery"
                   className="w-full object-cover h-full object-center block"
                   src="https://dummyimage.com/500x300"
                 />
               </div>
               <div className="md:p-2 p-1 w-1/2">
-                <img
+                <Image
                   alt="gallery"
                   className="w-full object-cover h-full object-center block"
                   src="https://dummyimage.com/501x301"
                 />
               </div>
               <div className="md:p-2 p-1 w-full">
-                <img
+                <Image
                   alt="gallery"
                   className="w-full h-full object-cover object-center block"
                   src="https://dummyimage.com/600x360"
@@ -189,21 +192,21 @@ export default function Home() {
             </div>
             <div className="flex flex-wrap w-1/2">
               <div className="md:p-2 p-1 w-full">
-                <img
+                <Image
                   alt="gallery"
                   className="w-full h-full object-cover object-center block"
                   src="https://dummyimage.com/601x361"
                 />
               </div>
               <div className="md:p-2 p-1 w-1/2">
-                <img
+                <Image
                   alt="gallery"
                   className="w-full object-cover h-full object-center block"
                   src="https://dummyimage.com/502x302"
                 />
               </div>
               <div className="md:p-2 p-1 w-1/2">
-                <img
+                <Image
                   alt="gallery"
                   className="w-full object-cover h-full object-center block"
                   src="https://dummyimage.com/503x303"
