@@ -172,21 +172,27 @@ export default function Home() {
                 <Image
                   alt="gallery"
                   className="w-full object-cover h-full object-center block"
-                  src="https://dummyimage.com/500x300"
+                  width={500}
+                  height={300}
+                  src="https://res.cloudinary.com/leonardocintra/image/upload/v1686143215/WhatsApp_Image_2023-03-13_at_09.31.38_k3orim.jpg"
                 />
               </div>
               <div className="md:p-2 p-1 w-1/2">
                 <Image
                   alt="gallery"
                   className="w-full object-cover h-full object-center block"
-                  src="https://dummyimage.com/501x301"
+                  src="https://res.cloudinary.com/leonardocintra/image/upload/v1686143216/WhatsApp_Image_2023-03-13_at_09.32.33_esgany.jpg"
+                  width={500}
+                  height={300}
                 />
               </div>
               <div className="md:p-2 p-1 w-full">
                 <Image
                   alt="gallery"
                   className="w-full h-full object-cover object-center block"
-                  src="https://dummyimage.com/600x360"
+                  src="https://res.cloudinary.com/leonardocintra/image/upload/v1686143215/WhatsApp_Image_2023-03-13_at_09.31.52_jd8ttr.jpg"
+                  width={600}
+                  height={360}
                 />
               </div>
             </div>
@@ -195,21 +201,27 @@ export default function Home() {
                 <Image
                   alt="gallery"
                   className="w-full h-full object-cover object-center block"
-                  src="https://dummyimage.com/601x361"
+                  src="https://res.cloudinary.com/leonardocintra/image/upload/v1686143215/WhatsApp_Image_2023-03-13_at_09.31.24_jjqnfa.jpg"
+                  width={600}
+                  height={360}
                 />
               </div>
               <div className="md:p-2 p-1 w-1/2">
                 <Image
                   alt="gallery"
                   className="w-full object-cover h-full object-center block"
-                  src="https://dummyimage.com/502x302"
+                  src="https://res.cloudinary.com/leonardocintra/image/upload/v1686143215/WhatsApp_Image_2023-03-13_at_09.31.17_nmcefb.jpg"
+                  width={500}
+                  height={300}
                 />
               </div>
               <div className="md:p-2 p-1 w-1/2">
                 <Image
                   alt="gallery"
                   className="w-full object-cover h-full object-center block"
-                  src="https://dummyimage.com/503x303"
+                  src="https://res.cloudinary.com/leonardocintra/image/upload/v1686143216/WhatsApp_Image_2023-03-13_at_09.32.26_l78qwa.jpg"
+                  width={500}
+                  height={300}
                 />
               </div>
             </div>
